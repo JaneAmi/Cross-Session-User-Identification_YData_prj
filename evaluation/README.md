@@ -21,4 +21,4 @@ All experiments represented by groups:
 
 3. **Mixed**
 
-- [Different model architectures tested on 100 users](../models/model_expleriments.ipynb)
+- [Different model architectures tested on 100 users](model_expleriments.ipynb)
