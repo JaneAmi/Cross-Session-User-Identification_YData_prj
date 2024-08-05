@@ -3,8 +3,6 @@ Description: A Python utility contains methods to
 create train and test datasets
 """
 
-import pandas as pd
-from itertools import combinations
 from sklearn.model_selection import train_test_split
 
 def get_last_user_sessions(df, columns=['session_id']):

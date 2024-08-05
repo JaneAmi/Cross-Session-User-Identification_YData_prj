@@ -41,10 +41,27 @@ The functions created for the preprocessing are presented [here](data_pipeline)
  3. **Heuristic approach**
 The heuristic approach involves creating a dictionary from the training data using external identifiers. For each new session containing any of these identifiers, it’s cross-referenced against this dictionary. The approach achieves a recall of 0.60 at 1 and 0.63 at 3. The variation in recall is attributed to using IP addresses as identifiers, which can be linked to multiple users, thereby affecting the recall rate.
 
+The functions created for the heuristic approach are presented [here](models/heuristic_utils.py)
+
  ## Model training
 
- Siamese Neural Nertwork approach was utilized to train the model. To achieve decent results many different combination of models and hyperparameters were utilized. All experiments are described and presented [here](models).
+The Siamese Neural Network approach was utilized to train the model. To achieve decent results, various combinations of models and hyperparameters were tested. All experiments are described and presented [here](models).
+
+## Vector Database
+
+The functions created for utilising FAISS vector database are presented [here](evaluation/faiss_umap_utils.py)
 
  ## Conclusion
 
- 
+The applied information retrieval approach appears very promising. To achieve better results, the following steps should be taken:
+
+- Extract more meaningful features from the original data.
+- Create new features representing consequences.
+- Enhance the handling of categorical features.
+- Increase the model training time.
+
+
+ ## References
+
+ - [TabNet: Attentive Interpretable Tabular Learning](https://arxiv.org/abs/1908.07442)
+ - [How To Train Your Siamese Neural Network](https://towardsdatascience.com/how-to-train-your-siamese-neural-network-4c6da3259463)
