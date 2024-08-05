@@ -2,7 +2,7 @@
 
 This repository demonstrates the information retrieval component of the Cross Session User Identification project, which utilizes Siamese Neural Networks and a FAISS database to enhance session-to-session user tracking accuracy.
 
-## Project overview
+## Project Overview
 
 Identifying anonymous users who return to e-commerce sites without logging in is a common challenge. These users often leave identifiable traces such as device usage, browser preferences, and shopping behaviors, which can be leveraged to recognize return visits.
 
@@ -24,7 +24,7 @@ The complete project workflow is visualized below. The components included in th
 ## Unshown Parts of the Project
 
 1. **Exploratory Data Analysis (EDA)**
-- EDA revealed many information that helps to identify users, like usually visitors use 1 or 2 devices to visit the website, same statistics with browsers, they have preferable brand and sizes, etc.
+- EDA revealed much information that helps identify users, like visitors usually use 1 or 2 devices to visit the website, same statistics with browsers, they have preferable brands and sizes, etc.
 - Approximately 60% of sessions included external identifiers, guiding the heuristic approach. 
 
 2. **Data preprocessing**
@@ -49,7 +49,7 @@ The Siamese Neural Network approach was utilized to train the model. To achieve 
 
 ## Vector Database
 
-The functions created for utilising FAISS vector database are presented [here](evaluation/faiss_umap_utils.py)
+The functions created for utilizing the FAISS vector database are presented [here](evaluation/faiss_umap_utils.py)
 
  ## Conclusion
 

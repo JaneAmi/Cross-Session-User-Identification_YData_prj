@@ -52,8 +52,8 @@ Used losses for training:
 *L(a, p, n) = max{d(ai, pi) - d(ai, ni) + m, 0}*
 
 *a* - anchor session
-*p* - positive example - a session from the similar user
-*n* - negative example - a session from the different user
+*p* - positive example - a session from a similar user
+*n* - negative example - a session from a different user
 
 *m* - margin
 *d* - Euclidean distance
