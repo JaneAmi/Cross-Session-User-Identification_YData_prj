@@ -35,7 +35,7 @@ The complete project workflow is visualized below. The components included in th
 
  - *Normalization*: the data was normalized using MinMaxScaler
 
-The functions created for the preprocessing are presented [here](data_pipeline)
+The functions created for the preprocessing are presented [here](data_pipeline/data_preprocessing_utils.py)
 
 
  3. **Heuristic approach**
@@ -43,9 +43,12 @@ The heuristic approach involves creating a dictionary from the training data usi
 
 The functions created for the heuristic approach are presented [here](models/heuristic_utils.py)
 
- ## Model training
+ ## Model Training and Evaluation
 
-The Siamese Neural Network approach was utilized to train the model. To achieve decent results, various combinations of models and hyperparameters were tested. All experiments are described and presented [here](models).
+The Siamese Neural Network (SNN) approach was utilized to train the model. To achieve optimal results, various combinations of models and hyperparameters were tested. Detailed descriptions of the methodologies used for model architecture and training can be found [here](models).
+
+Experiments conducted to choose the best model architecture and hyperparameters are detailed [here](evaluation).
+
 
 ## Vector Database
 

@@ -17,7 +17,7 @@ All experiments represented by groups:
 
 2. **SNN for triplets**
 
-    2.1 [3 fully connected layers with ReLU, all data, best result](evaluation/SNN_T_Full)
+    2.1 [3 fully connected layers with ReLU, all data, best result](SNN_T_Full)
 
 3. **Mixed**
 

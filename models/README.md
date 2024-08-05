@@ -63,7 +63,7 @@ Used losses for training:
 
 1. TabNet
 
-2. 3 fully connected layers with ReLU
+2. 3 fully connected layers with ReLU activation function
 
 <div align="center">
     <img src="../docs/images/3_layers_with_relu.png" alt="3 fc with relu" width="400"/>
