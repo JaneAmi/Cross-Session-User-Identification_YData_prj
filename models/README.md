@@ -1,19 +1,19 @@
 We leveraged the Siamese Neural Network (SNN) approach to generate embeddings.
 
 
-Below is the architecture that yielded the best results, but many others combinations were tested and you can find all description here.
+Below is the architecture that yielded the best results, but many other combinations were tested and you can find all descriptions here.
 
 <div align="center">
     <img src="../docs/images/Final_SNN_architecture.png" alt="Best result SNN architecture" width="700"/>
-    <p style="color: #808080;">Best result SNN architecture</p>
+    <p style="color: #808080;">Optimal SNN architecture</p>
 </div>
 
 
-All classes for models, datasets and functions for training are presented [here](siamese_nn_utils.py)
+All classes for models, datasets, and functions for training are presented [here](siamese_nn_utils.py)
 
 <details><summary><b><big>Used Siamese Neural Network (SNN) architechtures</big></b></summary>
 
-While training the model we tried SNN for pairs and for triplets. 
+While training the model we tried SNN for pairs and triplets. 
 
 1. SNN for pairs:
 
