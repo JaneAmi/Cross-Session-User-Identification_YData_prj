@@ -6,6 +6,8 @@ This repository demonstrates the information retrieval component of the Cross Se
 
 Identifying anonymous users who return to e-commerce sites without logging in is a common challenge. These users often leave identifiable traces such as device usage, browser preferences, and shopping behaviors, which can be leveraged to recognize return visits.
 
+[Project presentation](docs/Cross-session_id_prj_presentation.pdf)
+
 
 ## Data
 
